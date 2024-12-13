@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color:beige;
+    padding: 5px 0;
+    text-align: center;
+    margin-top: -10px;
+    display: block;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    height: 90px;
+    width: auto;
+    margin-right: 5px;
+}
+
+.spice{
+    font-size: 40px;
+    font-weight: 700;
+    color:#3d2a1f; 
+    font-family: Gloock; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+input{
+   margin-left: 50px;
+    height: 25px;
+    width: 300px;
+    border-style:dotted;
+    border-color:rgb(192, 146, 146);
+    background-color: rgb(244, 244, 208);
+    border-radius: 5px;
+    padding-left: 2px;
+}
+button{
+    margin-right: 3px;
+    height: 25px;
+    width: 60px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    background-color: #387051;
+    color: white;
+    font-family: Poppins;
+    font-weight: 700;
+    cursor:pointer;
+    letter-spacing: 1px;
+
+}
+
+button:hover{
+    color:lavender;
+    text-decoration: dashed;
+}
+.bar{
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+nav{
+    color:white ;
+    background-color:#705138;
+    margin-bottom: 40px;
+}
+li,ul{
+    padding: 5px;
+    padding-left: 120px;
+    padding-right: 100px;
+    display: inline-block;
+    height: 50px;
+    width: auto;
+    font-size: 20px;
+    font-family: Trirong;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.hyper{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: burlywood;
+}
+
+.menus{
+    border-color:rgb(241, 236, 236);
+    border-style: solid;
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.items1{
+    width: 320px;
+    height: 200px; 
+    background-image:url(chicken\ briyani.jpeg); 
+    background-size:cover; 
+    background-position: center; 
+    border-radius: 10px;
+    display: flex;
+    border: 4px;
+}
+.items2{
+    width: 320px;
+    height: 200px; 
+    background-image:url(dessert.jpeg); 
+    background-size:cover; 
+    background-position: center; 
+    border-radius: 10px;
+    display: flex;
+    border: 4px;
+    padding-bottom: 100px;
+}
+.items3{
+    width: 320px;
+    height: 200px; 
+    background-image:url(momos.jpeg); 
+    background-size:cover; 
+    background-position: center; 
+    border-radius: 10px;
+    display: flex;
+    border: 4px;
+}
+.items4{
+    width: 320px;
+    height: 200px; 
+    background-image:url(pizza.jpg); 
+    background-size:cover; 
+    background-position: center; 
+    border-radius: 10px;
+    display: flex;
+    border: 4px;
+}
+.items5{
+    width: 320px;
+    height: 200px; 
+    background-image:url(shrimp.jpeg); 
+    background-size:cover; 
+    background-position: center; 
+    border-radius: 10px;
+    display: flex;
+    border: 4px;
+}
+.items6{
+    width: 320px;
+    height: 200px; 
+    background-image:url(chinese.jpg); 
+    background-size:cover; 
+    background-position: center; 
+    border-radius: 10px;
+    display: flex;
+    border: 4px;
+}
+.items7{
+    width: 320px;
+    height: 200px; 
+    background-image:url(paya.jpeg); 
+    background-size:cover; 
+    background-position: center; 
+    border-radius: 10px;
+    display: flex;
+    border: 4px;
+}
+.words
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: Trirong;
+    padding-bottom: 20px;
+    text-align: start;
+}
+.words:hover{
+    cursor: pointer;
+    color:darkcyan;
+}
+.order{
+    font-size: 20px;
+}
+.order1{
+    font-size: 20px;
+}
+.words p.good1{
+    max-width: 310px;
+    font-size: 15px;
+}
+.words p.good2{
+    max-width: 300px;
+    font-size: 15px;
+}
+.words p.good3{
+    max-width: 300px;
+    font-size: 15px;
+}
+.words p.good4{
+    white-space:pre wrap;
+    max-width: 300px;
+    font-size: 15px;
+}
+.words p.good5{
+    max-width: 300px;
+    font-size: 15px;
+}
+.words p.good6{
+    max-width: 300px;
+    font-size: 15px;
+}
+.words p.good7{
+    max-width: 300px;
+    font-size: 15px;
+}
+footer{
+    
+    background-color: #705138;
+    text-align: center;
+    height: 70px;
+    width: auto;
+    padding-top: 10px;
+    font-size: 13px;
+    color: lavender;
+    font:small-caps
+}
+h2{
+    display: inline;
+    margin-right: 50px;
+}
+.terms
+{
+    color:aliceblue;
+    text-decoration: none;
+}
+.terms:hover{
+    text-decoration: underline;
+}
