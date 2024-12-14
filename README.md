@@ -1237,13 +1237,9 @@ span{
 ```
 ## OUTPUT:
 ![alt text](<Screenshot (104).png>)
-
 ![alt text](<Screenshot (105).png>)
-
 ![alt text](<Screenshot (106).png>)
-
 ![alt text](<Screenshot (107).png>)
-
 ![alt text](<Screenshot (108).png>)
 
 ## RESULT:
