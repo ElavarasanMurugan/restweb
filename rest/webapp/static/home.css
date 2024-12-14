@@ -187,3 +187,7 @@ h2{
 .terms:hover{
     text-decoration: underline;
 }
+span{
+    color:rgb(0, 195, 255);
+    font-family: Dancing Script;
+}

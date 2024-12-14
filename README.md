@@ -1,5 +1,5 @@
 # Ex.07 Restaurant Website
-## Date: 13-12-2024
+## Date: 14-12-2024
 
 ## AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
@@ -30,7 +30,6 @@ Publish the website in the given URL.
 ## PROGRAM:
 ```
 home.html
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -67,7 +66,7 @@ home.html
             <ul>
                 <li><a href="home.html" class="hyper">Home</a></li>
                 <li><a href="menu.html" class="hyper">Menu</a></li>
-                <li><a href="admin.html" class="hyper">Administration</a></li>               
+                <li><a href="admin.html" class="hyper">Administration</a></li>
                 <li><a href="contact.html" class="hyper">Contact Us</a></li>
             </ul>
         </nav>
@@ -76,39 +75,40 @@ home.html
     <div class="image">
     </div>
     <div class="box">
-    <div class="box2">
-        <div class="collections">
+        <div class="box2">
+            <div class="collections">
+            </div>
+            <div class="words">
+                <h2 class="order">Order Online</h2>
+                <p class="good">Cravings delivered to your doorstep—order online now!</p>
+            </div>
         </div>
-        <div class="words">
-            <h2 class="order">Order Online</h2>
-            <p class="good">Cravings delivered to your doorstep—order online now!</p>
+        <div class="box2">
+            <div class="collections2">
+            </div>
+            <div class="words">
+                <h2 class="order">Dining</h2>
+                <p class="good">Experience flavors worth gathering for—dine with us!x</p>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="collections3">
+            </div>
+            <div class="words">
+                <h2 class="order">Reserve a table</h2>
+                <p class="good">Reserve your spot today and savor unforgettable moments!</p>
+            </div>
         </div>
     </div>
-    <div class="box2">
-        <div class="collections2">
-        </div>
-        <div class="words">
-            <h2 class="order">Dining</h2>
-            <p class="good">Experience flavors worth gathering for—dine with us!x</p>
-        </div>
-    </div>
-    <div class="box2">
-        <div class="collections3">
-        </div>
-        <div class="words">
-            <h2 class="order">Reserve a table</h2>
-            <p class="good">Reserve your spot today and savor unforgettable moments!</p>
-        </div>
-    </div>
-</div>
     <br><br>
-    
+
     <footer>
         <h2><a href="name" class="terms">Terms and conditions </a> </h2>
         <h2><a href="name" class="terms">Cookie Policy </a> </h2>
         <h2><a href="name" class="terms">Privacy Policy </a></h2>
         <br><br>
         <h2> Copyright &copy; 2024 SPICY SYMPHONY </h2>
+        <h2>Designed and Developed By <span>  Elavarasan M</span></h2>
     </footer>
 </body>
 
@@ -116,7 +116,6 @@ home.html
 </html>
 
 home.css
-
 * {
     margin: 0;
     padding: 0;
@@ -227,7 +226,7 @@ a:hover{
     border-color:rgb(241, 236, 236);
     border-style: solid;
     display: inline-block;
-    margin-left: 180px;
+    margin-left: 150px;
     border-radius: 10px;
 }
 
@@ -305,6 +304,10 @@ h2{
 }
 .terms:hover{
     text-decoration: underline;
+}
+span{
+    color:rgb(0, 195, 255);
+    font-family: Dancing Script;
 }
 
 
@@ -428,6 +431,8 @@ menu.html
         <h2><a href="name" class="terms">Privacy Policy </a></h2>
         <br><br>
         <h2> Copyright &copy; 2024 SPICY SYMPHONY </h2>
+        <h2>Designed and Developed By <span>  Elavarasan M</span></h2>
+
     </footer>
 </body>
 
@@ -680,13 +685,13 @@ h2{
 .terms:hover{
     text-decoration: underline;
 }
-
-
+span{
+    color:rgb(0, 195, 255);
+    font-family: Dancing Script;
+}
 ```
-
 ```
 admin.html
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -758,13 +763,14 @@ admin.html
         </div>
     </div>
     
-    <br><br><br><br><br>
+    <br><br><br><br><br><br>
     <footer>
         <h2><a href="name" class="terms">Terms and conditions </a> </h2>
         <h2><a href="name" class="terms">Cookie Policy </a> </h2>
         <h2><a href="name" class="terms">Privacy Policy </a></h2>
         <br><br>
         <h2> Copyright &copy; 2024 SPICY SYMPHONY </h2>
+        <h2>Designed and Developed By <span>  Elavarasan M</span></h2>
     </footer>
 </body>
 
@@ -949,12 +955,13 @@ h2{
     margin-top: 10px;
     margin-right: 50px;
     display: inline-block;
-
+}
+span{
+    color:rgb(0, 195, 255);
+    font-family: Dancing Script;
 }
 
-
 ```
-
 ```
 contact.html
 
@@ -1049,12 +1056,15 @@ contact.html
         <h2><a href="name" class="terms">Privacy Policy </a></h2>
         <br><br>
         <h2> Copyright &copy; 2024 SPICY SYMPHONY </h2>
+        <h2>Designed and Developed By <span>  Elavarasan M</span></h2>
+
     </footer>
 </body>
 
 </html>
 
 contact.css
+
 * {
     margin: 0;
     padding: 0;
@@ -1220,17 +1230,21 @@ h2{
     margin-right: 50px;
     display: inline-block;
 }
+span{
+    color:rgb(0, 195, 255);
+    font-family: Dancing Script;
+}
 ```
 ## OUTPUT:
-![alt text](<Screenshot (98).png>)
+![alt text](<Screenshot (104).png>)
 
-![alt text](<Screenshot (99).png>)
+![alt text](<Screenshot (105).png>)
 
-![alt text](<Screenshot (100).png>)
+![alt text](<Screenshot (106).png>)
 
-![alt text](<Screenshot (101).png>)
+![alt text](<Screenshot (107).png>)
 
-![alt text](<Screenshot (102).png>)
+![alt text](<Screenshot (108).png>)
 
 ## RESULT:
-The program for designing software company website using HTML and CSS is completed successfully.
+The program for designing software company website using HTML and CSS is completed successfully
